@@ -9,7 +9,9 @@ const Result = ({ result }: { result: boolean }) => {
   return (
     <div className={styles.resultText}>
       <span>{resultTitle}</span>
-      <img src={result ? winner : loser} alt="result" />
+      <div>
+        <img src={result ? winner : loser} alt="result" />
+      </div>
     </div>
   );
 };

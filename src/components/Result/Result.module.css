@@ -6,7 +6,18 @@
   font-weight: 300;
 }
 
-.resultText img {
-  height: 100%;
+.resultText div {
+  height: 300px;
+}
+
+.resultText div img {
   width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .resultText div {
+    height: 400px;
+  }
 }
