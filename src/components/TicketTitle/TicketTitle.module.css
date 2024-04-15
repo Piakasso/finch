@@ -1,0 +1,4 @@
+.ticketTitle {
+  font-size: var(--fs-lg);
+  padding: 0 16px 12px 16px;
+}

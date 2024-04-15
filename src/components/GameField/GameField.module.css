@@ -1,0 +1,29 @@
+.numField {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 10px;
+  align-items: center;
+}
+
+.resultButton {
+  align-self: center;
+  border-radius: 40px;
+  padding: 13px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  color: rgba(0, 0, 0, 0.64);
+  font-size: var(--fs-lg);
+  cursor: not-allowed;
+}
+
+.activeButton {
+  border: #ffd205 1px solid;
+  color: #ffd205;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .numField {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+}

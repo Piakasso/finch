@@ -1,0 +1,11 @@
+.additionalText {
+  font-weight: 300;
+  font-size: var(--fs-base);
+}
+.gameFieldTitle {
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  font-size: var(--fs-lg);
+  padding: 0 16px;
+}

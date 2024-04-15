@@ -1,0 +1,12 @@
+.resultText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 16px;
+  font-weight: 300;
+}
+
+.resultText img {
+  height: 100%;
+  width: auto;
+}

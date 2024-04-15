@@ -1,0 +1,31 @@
+.gameCell {
+  cursor: pointer;
+  height: 40px;
+  border: 1px #ddd solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .gameCell {
+    border-radius: 10px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .gameCell {
+    border-radius: 14px;
+    height: 100px;
+  }
+}
+
+.activeCell {
+  background-color: #ffd205;
+  width: 85%;
+
+  justify-self: center;
+  border: none;
+}
